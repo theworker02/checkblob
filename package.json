@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/checkblob",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Check filesystem blob paths across POSIX and Windows conventions.",
+  "bin": {
+    "checkblob": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/checkblob.git"
+  },
+  "homepage": "https://theworker02.github.io/checkblob/",
+  "keywords": [
+    "check",
+    "blob",
+    "path",
+    "cli",
+    "toolkit"
+  ]
+}
